@@ -55,3 +55,14 @@ public enum State {
     PLAYING, DRAW, CROSS_WON, NOUGHT_WON
 
 }
+
+
+Seed.java:
+/**
+ * Enumeration for the seeds and cell contents
+ */
+public enum Seed {
+    // to save as "Seed.java"
+    EMPTY, CROSS, NOUGHT
+}
+
