@@ -38,3 +38,20 @@ Permainan memungkinkan interaksi pengguna melalui klik mouse. Ketika pengguna me
 Perbaikan Potensial:
 Satu area yang dapat diperbaiki adalah memberikan lebih banyak umpan balik kepada pengguna, misalnya, dengan menampilkan pesan konfirmasi ketika permainan berakhir (siapa yang menang atau jika seri). Hal ini akan memberikan pengalaman pengguna yang lebih baik.
 Dengan demikian, kode tersebut merupakan implementasi yang baik dari permainan Tic-Tac-Toe dalam bahasa Java, memanfaatkan konsep-konsep dasar pemrograman objek dan antarmuka pengguna grafis. Ada potensi untuk memperluas dan meningkatkan permainan ini dengan penambahan fitur atau peningkatan antarmuka pengguna.
+
+State.java:
+// State.java
+
+
+
+/**
+
+ * Enumeration for the various states of the game
+
+ */
+
+public enum State {
+
+    PLAYING, DRAW, CROSS_WON, NOUGHT_WON
+
+}
